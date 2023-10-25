@@ -1,0 +1,116 @@
+
+/*CONFIGURAÇOES PARA TODA PAGINA*/
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+/*ESTILO MENU PRINCIPAL*/
+#menu-principal{
+    background-color: #303030;
+}
+#titulo-menu-principal{
+    color: #FFFFFF;
+   text-align: justify;
+   font-size: 54px; 
+   padding-top: 180px;
+   padding-left: 60px;
+}
+#paragrafo-menu-principal{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 62px; 
+    padding-bottom: 150px;
+}
+
+/*ESTILO MENU INFORMATIVO*/
+#menu-informaciomal{
+    background-color:#f3eded;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 16px;
+}
+.text-menu-informacional{
+    margin: 110px 0px 70px 0px;
+}
+#text-01{
+    padding-left: 35%;
+}
+#text-02{
+    padding-left: 19%;
+}
+#text-03{
+    padding-left: 10%;
+}
+
+/*ESTILO MEIO DA PAGINA DO SITE COM TEXTO E FOTO*/
+#meio-do-site{
+    background-color:#F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#imagem-meio-site{
+
+    margin: 75px 0px 90px 0px;
+    border-radius: 5%;
+    padding-left: 3%;
+}
+#titulo-meio-do-site{
+    color: #000000;
+    font-size: 35px;
+    margin: 260px 0px 0px 60px;
+   
+
+}
+#paragrafo-meio-do-site{
+    color: #000000;
+    font-size: 135%;
+    margin: 0px 0px 0px 60px;
+}
+
+/*FORMULARIO*/
+#formulario{
+    background-color:#303030;
+    text-align: center;
+}
+#titulo-formulario{
+    padding: 90px 0px 45px 0px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+input{
+    width: 490px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 0px 55px 0px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+button{
+    background-color: #C07212;
+    color:#FFFFFF;
+    width: 280px;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px 60px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 1.0s;
+    background-color: #f78c0af3;
+    font-weight: bolder;
+}
+
+
+
+
