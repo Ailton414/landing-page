@@ -34,15 +34,19 @@
     columns: auto;
     font-size: 16px;
 }
+
 .text-menu-informacional{
     margin: 110px 0px 70px 0px;
 }
+
 #text-01{
     padding-left: 35%;
 }
+
 #text-02{
     padding-left: 19%;
 }
+
 #text-03{
     padding-left: 10%;
 }
@@ -106,8 +110,8 @@ button{
 }
 button:hover{
     transform: translateY(-7px);
-    transition-duration: 1.0s;
-    background-color: #f78c0af3;
+    transition-duration: 0.5s;
+    background-color: #f78c0ad8;
     font-weight: bolder;
 }
 
